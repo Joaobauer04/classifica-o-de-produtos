@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado do Bauer</title>
+    <link rel="stylesheet" href="case.css">
+</head>
+<body>
+    <header>
+        <h2>Classificação de produtos</h2>
+    </header>
+
+    <div class="container">
+        <div class="div-produtos">
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Camiseta polo')">
+            <label>Camiseta polo</label>
+            <br>
+            <input type="radio" name="frutas"
+              onclick="selecionarProdutos('Banana')">
+            <label>Banana</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Óleo')">
+            <label>Óleo</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Esponja')">
+            <label>Esponja</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Shorts da nike')">
+            <label>Shorts da nike</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('sabonete')">
+            <label>sabonete</label>
+            <br>
+        </div>
+        <div class="div-resultado">
+            <label>Resultado</label>
+            <br>
+            <label id="resultado"></label>
+        </div>
+    </div>
+    
+
+    <footer>
+        <ul>
+            <li>Mercado do Bauer</li>
+            <li>Aqui você encontra os melhores produtos</li>
+        </ul>
+    </footer>
+
+    <script src="case.js"></script> 
+</body>
+</html>
